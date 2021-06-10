@@ -1,0 +1,152 @@
+/*Mobile Layout*/
+
+
+@media only screen and (max-width: 600px) {
+    #header_area {
+    padding: 0px 0px;
+    } 
+
+    .header_left a h1 {
+      display: none;
+    }   
+
+     .inner_home {
+      display: block;
+      flex-direction: column;
+      align-items: center;
+      padding: 0px 20px;
+    }
+    
+    .home_right {
+      width: 280px;
+      height: 280px;
+      margin-top:80px;
+      margin: 0 auto;
+    }
+    
+    .home_left {
+      width: 310px;
+      margin: auto;
+      padding-bottom: 40px;
+    }
+    
+    
+    .inner_aboutMe_area {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0px 30px;
+    }
+    
+    .aboutMe_image {
+      width: 272px;
+    }
+    
+    .aboutMe_Info {
+      width: 290px;
+      margin-top: 50px;
+      padding: 0px 50px;
+    }
+    
+    
+    .aboutMe_Info input[type="submit"] {
+      padding: 10px 15px;
+      margin-right: 10px;
+    }
+    
+    #inner_components {
+      display: grid;
+      padding: 0px 60px;
+      grid-gap: 10px;
+      grid-template-columns: 2fr;
+    }
+    
+    #inner_exp {
+      flex-direction: column;
+      align-items: center;
+      padding: 0px 50px;
+    }
+    
+    .single_expBox {
+      width: 70%;
+      margin-bottom: 30px;
+      margin-right: 0px;
+    
+    }
+
+    .inner_service_area {
+      display: grid;
+      grid-template-columns: 2fr;
+      grid-gap: 30px;
+      padding: 0px 65px;
+    }
+    
+    .inner_contact {
+      display: grid;
+      grid-template-columns: 3fr;
+      grid-gap: 30px;
+    padding: 0px 60px;
+   }
+
+
+   .inner_contact_form {
+    margin-top: 60px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+
+    .form_left {
+    width: 80%;
+    }
+
+
+   .form_form input {
+    background: #dfdfdf;
+    display: block;
+    margin-bottom: 20px;
+    width: 84%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    }
+
+   .form_right {
+    width: 80%;
+   }
+
+   .form_right textarea {
+    resize: none;
+    width: 90%;
+    background: #dfdfdf;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+   }
+
+   .form_right input[type="submit"] {
+    padding: 15px;
+    width: 99%;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    background: #39B537;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid #39b537;
+    transition: .3s;
+    float:none;
+    }
+    
+    
+    
+    .inner_copyright {
+     align-items: center;
+     flex-direction: column;
+    }
+    
+    .copyright_singnature {
+     margin-bottom: 10px;
+    }
+     
+}
